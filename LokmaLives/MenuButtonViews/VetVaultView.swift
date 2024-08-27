@@ -1,6 +1,9 @@
 import SwiftUI
 
+// VetVaultView displays detailed information about the user's pet, Lokma.
+// This includes identification, medication, allergies, vaccinations, and emergency contacts.
 struct VetVaultView: View {
+    // State variables to store pet details and emergency contacts.
     @State private var name: String = "Lokma Özok"
     @State private var age: String = "Born on March 31st, 2023"
     @State private var breed: String = "Orange Tabby"
@@ -18,11 +21,13 @@ struct VetVaultView: View {
 
     var body: some View {
         ZStack {
+            // Background color with reduced opacity to create a subtle teal background effect.
             Color.teal
                 .opacity(0.15)
                 .ignoresSafeArea()
 
             VStack {
+                // Header section with an icon and title for the Vet Vault.
                 HStack {
                     Image(systemName: "staroflife.fill")
                         .foregroundColor(.red)
@@ -33,7 +38,9 @@ struct VetVaultView: View {
                         .opacity(0.88)
                 }
 
+                // List section displaying pet information divided into categories.
                 List {
+                    // Identification section including name, age, weight, and breed.
                     Section(header: Text("Identification")) {
                         VStack(alignment: .leading) {
                             Text("Name")
@@ -58,23 +65,27 @@ struct VetVaultView: View {
                                 .font(.footnote)
                         }
                     }
+                    // Medication section listing current medications.
                     Section(header: Text("Medication")) {
                         TextField("Med1", text: $medication)
                         TextField("Med2", text: $medication2)
                     }
+                    // Allergies section listing known allergies.
                     Section(header: Text("Allergies")) {
                         TextField("Aller1", text: $allergy1)
                     }
+                    // Vaccinations section listing recent vaccinations.
                     Section(header: Text("Vaccinations")) {
                         TextField("Vaccine1", text: $vaccination1)
                         TextField("Vaccine2", text: $vaccination2)
                         TextField("Vaccine3", text: $vaccination3)
                     }
+                    // Emergency Contacts section listing contact names and numbers.
                     Section(header: Text("Emergency Contacts")) {
                         VStack(alignment: .leading) {
                             TextField("Cont1", text: $contactName1)
                             TextField("Cont1", text: $contactNumber1)
-                                .foregroundColor(.blue)
+                                .foregroundColor(.blue) // Colors the phone number for emphasis.
                         }
                         VStack(alignment: .leading) {
                             TextField("Cont2", text: $contactName2)
@@ -83,13 +94,13 @@ struct VetVaultView: View {
                         }
                     }
                 }
-                .listStyle(InsetGroupedListStyle()) // Use this for better visual consistency
-                .background(Color.clear) // Makes the list background transparent
-                .scrollContentBackground(.hidden) // Hides the default background of the list
+                .listStyle(InsetGroupedListStyle()) // Improves the visual consistency of the list.
+                .background(Color.clear) // Ensures the list background matches the ZStack background.
+                .scrollContentBackground(.hidden)
 
                 Spacer()
             }
-            .padding(.top, 20) // Adjusts top padding for better alignment
+            .padding(.top, 20)
         }
         .navigationTitle("Vet Vault")
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E17564D2C7E6A9F00992BA2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17564C2C7E6A9F00992BA2 /* LocationManager.swift */; };
 		2E75BD542C787A250012A8CD /* LokmaLivesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD532C787A250012A8CD /* LokmaLivesApp.swift */; };
 		2E75BD562C787A250012A8CD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD552C787A250012A8CD /* MenuView.swift */; };
 		2E75BD582C787A260012A8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75BD572C787A260012A8CD /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E17564C2C7E6A9F00992BA2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		2E75BD502C787A250012A8CD /* LokmaLives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokmaLives.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E75BD532C787A250012A8CD /* LokmaLivesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokmaLivesApp.swift; sourceTree = "<group>"; };
 		2E75BD552C787A250012A8CD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				2E9F60D12C7D194A00A1B715 /* Raleway-Regular.ttf */,
 				2E9F60D52C7D298D00A1B715 /* Raleway-Bold.ttf */,
 				2E9F60CF2C7C046900A1B715 /* ImageCarouselView.swift */,
+				2E17564C2C7E6A9F00992BA2 /* LocationManager.swift */,
 			);
 			path = Presets;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			files = (
 				2E75BD562C787A250012A8CD /* MenuView.swift in Sources */,
 				2E9F60CC2C7BFF1D00A1B715 /* MainView.swift in Sources */,
+				2E17564D2C7E6A9F00992BA2 /* LocationManager.swift in Sources */,
 				2E75BD542C787A250012A8CD /* LokmaLivesApp.swift in Sources */,
 				2E75BD802C78853B0012A8CD /* ButtonView.swift in Sources */,
 				2E75BD862C7894B60012A8CD /* VetVaultView.swift in Sources */,
@@ -501,6 +505,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LokmaLives/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cat Card";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -532,6 +537,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LokmaLives/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cat Card";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
