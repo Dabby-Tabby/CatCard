@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Firefly Cartoon cat walking far away cute from side pov in field far away 18259.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

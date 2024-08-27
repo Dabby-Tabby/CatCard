@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2E75BD542C787A250012A8CD /* LokmaLivesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD532C787A250012A8CD /* LokmaLivesApp.swift */; };
-		2E75BD562C787A250012A8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD552C787A250012A8CD /* ContentView.swift */; };
+		2E75BD562C787A250012A8CD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD552C787A250012A8CD /* MenuView.swift */; };
 		2E75BD582C787A260012A8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75BD572C787A260012A8CD /* Assets.xcassets */; };
 		2E75BD5B2C787A260012A8CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75BD5A2C787A260012A8CD /* Preview Assets.xcassets */; };
 		2E75BD652C787A270012A8CD /* LokmaLivesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD642C787A270012A8CD /* LokmaLivesTests.swift */; };
 		2E75BD6F2C787A270012A8CD /* LokmaLivesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD6E2C787A270012A8CD /* LokmaLivesUITests.swift */; };
 		2E75BD712C787A270012A8CD /* LokmaLivesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD702C787A270012A8CD /* LokmaLivesUITestsLaunchTests.swift */; };
+		2E75BD802C78853B0012A8CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD7F2C78853B0012A8CD /* ButtonView.swift */; };
+		2E75BD862C7894B60012A8CD /* VetVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD852C7894B60012A8CD /* VetVaultView.swift */; };
+		2E75BD882C7894D10012A8CD /* FindMyCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD872C7894D10012A8CD /* FindMyCatView.swift */; };
+		2E75BD8A2C7894E30012A8CD /* CatCareTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75BD892C7894E30012A8CD /* CatCareTipsView.swift */; };
+		2E9F60CA2C7BF91000A1B715 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F60C92C7BF91000A1B715 /* HomeView.swift */; };
+		2E9F60CC2C7BFF1D00A1B715 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F60CB2C7BFF1D00A1B715 /* MainView.swift */; };
+		2E9F60D02C7C046900A1B715 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F60CF2C7C046900A1B715 /* ImageCarouselView.swift */; };
+		2E9F60D22C7D195600A1B715 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F60D12C7D194A00A1B715 /* Raleway-Regular.ttf */; };
+		2E9F60D42C7D25A700A1B715 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F60D32C7D25A700A1B715 /* Raleway-Medium.ttf */; };
+		2E9F60D62C7D298D00A1B715 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F60D52C7D298D00A1B715 /* Raleway-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		2E75BD502C787A250012A8CD /* LokmaLives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokmaLives.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E75BD532C787A250012A8CD /* LokmaLivesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokmaLivesApp.swift; sourceTree = "<group>"; };
-		2E75BD552C787A250012A8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E75BD552C787A250012A8CD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2E75BD572C787A260012A8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E75BD5A2C787A260012A8CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E75BD602C787A270012A8CD /* LokmaLivesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokmaLivesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,17 @@
 		2E75BD6A2C787A270012A8CD /* LokmaLivesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokmaLivesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E75BD6E2C787A270012A8CD /* LokmaLivesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokmaLivesUITests.swift; sourceTree = "<group>"; };
 		2E75BD702C787A270012A8CD /* LokmaLivesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokmaLivesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E75BD7F2C78853B0012A8CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2E75BD852C7894B60012A8CD /* VetVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetVaultView.swift; sourceTree = "<group>"; };
+		2E75BD872C7894D10012A8CD /* FindMyCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCatView.swift; sourceTree = "<group>"; };
+		2E75BD892C7894E30012A8CD /* CatCareTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCareTipsView.swift; sourceTree = "<group>"; };
+		2E9F60C92C7BF91000A1B715 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2E9F60CB2C7BFF1D00A1B715 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2E9F60CF2C7C046900A1B715 /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		2E9F60D12C7D194A00A1B715 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "../../../../Downloads/raleway/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		2E9F60D32C7D25A700A1B715 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Medium.ttf"; path = "../../../../Downloads/raleway/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		2E9F60D52C7D298D00A1B715 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../../Downloads/raleway/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		2E9F60D72C7D2B1F00A1B715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +95,7 @@
 		2E75BD472C787A250012A8CD = {
 			isa = PBXGroup;
 			children = (
+				2E9F60CE2C7C045200A1B715 /* Presets */,
 				2E75BD522C787A250012A8CD /* LokmaLives */,
 				2E75BD632C787A270012A8CD /* LokmaLivesTests */,
 				2E75BD6D2C787A270012A8CD /* LokmaLivesUITests */,
@@ -94,9 +116,13 @@
 		2E75BD522C787A250012A8CD /* LokmaLives */ = {
 			isa = PBXGroup;
 			children = (
+				2E9F60D72C7D2B1F00A1B715 /* Info.plist */,
 				2E75BD532C787A250012A8CD /* LokmaLivesApp.swift */,
-				2E75BD552C787A250012A8CD /* ContentView.swift */,
+				2E9F60CB2C7BFF1D00A1B715 /* MainView.swift */,
+				2E75BD8B2C7894F40012A8CD /* MenuButtonViews */,
+				2E75BD7F2C78853B0012A8CD /* ButtonView.swift */,
 				2E75BD572C787A260012A8CD /* Assets.xcassets */,
+				2E9F60D82C7D416B00A1B715 /* Tips */,
 				2E75BD592C787A260012A8CD /* Preview Content */,
 			);
 			path = LokmaLives;
@@ -123,8 +149,46 @@
 			children = (
 				2E75BD6E2C787A270012A8CD /* LokmaLivesUITests.swift */,
 				2E75BD702C787A270012A8CD /* LokmaLivesUITestsLaunchTests.swift */,
+				2E9F60CD2C7BFFCB00A1B715 /* Tests */,
 			);
 			path = LokmaLivesUITests;
+			sourceTree = "<group>";
+		};
+		2E75BD8B2C7894F40012A8CD /* MenuButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				2E9F60C92C7BF91000A1B715 /* HomeView.swift */,
+				2E75BD852C7894B60012A8CD /* VetVaultView.swift */,
+				2E75BD872C7894D10012A8CD /* FindMyCatView.swift */,
+				2E75BD892C7894E30012A8CD /* CatCareTipsView.swift */,
+			);
+			path = MenuButtonViews;
+			sourceTree = "<group>";
+		};
+		2E9F60CD2C7BFFCB00A1B715 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E75BD552C787A250012A8CD /* MenuView.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		2E9F60CE2C7C045200A1B715 /* Presets */ = {
+			isa = PBXGroup;
+			children = (
+				2E9F60D32C7D25A700A1B715 /* Raleway-Medium.ttf */,
+				2E9F60D12C7D194A00A1B715 /* Raleway-Regular.ttf */,
+				2E9F60D52C7D298D00A1B715 /* Raleway-Bold.ttf */,
+				2E9F60CF2C7C046900A1B715 /* ImageCarouselView.swift */,
+			);
+			path = Presets;
+			sourceTree = "<group>";
+		};
+		2E9F60D82C7D416B00A1B715 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E75BD5B2C787A260012A8CD /* Preview Assets.xcassets in Resources */,
+				2E9F60D42C7D25A700A1B715 /* Raleway-Medium.ttf in Resources */,
+				2E9F60D22C7D195600A1B715 /* Raleway-Regular.ttf in Resources */,
+				2E9F60D62C7D298D00A1B715 /* Raleway-Bold.ttf in Resources */,
 				2E75BD582C787A260012A8CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E75BD562C787A250012A8CD /* ContentView.swift in Sources */,
+				2E75BD562C787A250012A8CD /* MenuView.swift in Sources */,
+				2E9F60CC2C7BFF1D00A1B715 /* MainView.swift in Sources */,
 				2E75BD542C787A250012A8CD /* LokmaLivesApp.swift in Sources */,
+				2E75BD802C78853B0012A8CD /* ButtonView.swift in Sources */,
+				2E75BD862C7894B60012A8CD /* VetVaultView.swift in Sources */,
+				2E9F60CA2C7BF91000A1B715 /* HomeView.swift in Sources */,
+				2E9F60D02C7C046900A1B715 /* ImageCarouselView.swift in Sources */,
+				2E75BD8A2C7894E30012A8CD /* CatCareTipsView.swift in Sources */,
+				2E75BD882C7894D10012A8CD /* FindMyCatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +499,8 @@
 				DEVELOPMENT_TEAM = EB2GVA2QCU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LokmaLives/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Card";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +530,8 @@
 				DEVELOPMENT_TEAM = EB2GVA2QCU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LokmaLives/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Card";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
