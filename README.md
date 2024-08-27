@@ -1,17 +1,27 @@
 # Cat Card
 
-![](https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo1.gif)
-![](https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo2.gif)
-![](https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo3.gif)
-![](https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo4.gif)
+<p align="center">
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo1.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo2.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo3.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo4.gif" width="200"/>
+</p>
 
-**Quick Notes** is a *SwiftUI app* designed for *journalists and other professionals* who need to quickly capture voice notes. With a **simple interface and easy-to-use features**, it **allows users to start and stop recordings with a single tap**, **view recording status**, and **share recorded audio files** with **one click**.
 
-### Usage
-Launch the Quick Notes app on your *watchOS* device.
+**Cat Card** is a **SwiftUI-based** mobile application designed to help cat owners keep track of essential information about their feline friends. With features like a *detailed pet profile*, *vet information storage*, and *helpful care tips*, Cat Card ensures that all important details about your cat are easily accessible.
 
-**Tap the button to start** recording.
+## Features
 
-**Tap again to stop** recording.
+#### Pet Profile
+Store and view essential information about your cat, including their name, age, breed, and more.
+#### Vet Vault
+Keep track of your cat’s medical history, medications, allergies, and emergency contacts.
+#### Find My Cat
+Powered by MapKit, A quick access tool to help locate your cat if they go missing.
+#### Cat Care Tips
+A collection of tips categorized for first-time cat owners, potty training, and general cat care.
 
-**If a recording is available**, *a share button will appear*, allowing you to share the recording.
+## Future Improvements
+
+- Active GPS Tracking w/ AirTags
+- Finalize/Implement Cat Care Tip sections with updated news articles
