@@ -22,8 +22,7 @@ struct VetVaultView: View {
     var body: some View {
         ZStack {
             // Background color with reduced opacity to create a subtle teal background effect.
-            Color.teal
-                .opacity(0.15)
+            Color("BeautifulBlue")
                 .ignoresSafeArea()
 
             VStack {
@@ -45,22 +44,22 @@ struct VetVaultView: View {
                         VStack(alignment: .leading) {
                             Text("Name")
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                            TextField("Name", text: $name)
+                            TextField("Enter Name", text: $name)
                                 .padding(.bottom, 9.0)
                                 .font(.footnote)
                             Text("Date of Birth")
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                            TextField("Age", text: $age)
+                            TextField("Enter Date of Birth", text: $age)
                                 .padding(.bottom, 9.0)
                                 .font(.footnote)
                             Text("Weight")
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                            TextField("Weight", text: $weight)
+                            TextField("Enter Weight", text: $weight)
                                 .padding(.bottom, 9.0)
                                 .font(.footnote)
                             Text("Breed")
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                            TextField("Breed", text: $breed)
+                            TextField("Enter Breed", text: $breed)
                                 .padding(.bottom, 9.0)
                                 .font(.footnote)
                         }

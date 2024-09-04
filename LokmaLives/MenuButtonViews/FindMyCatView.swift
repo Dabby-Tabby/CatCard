@@ -7,6 +7,12 @@ struct FindMyCatView: View {
     /// State object to manage location updates.
     @StateObject private var locationManager = LocationManager()
     
+    /// State variable to control the map's zoom level.
+    @State private var region: MKCoordinateRegion = MKCoordinateRegion(
+        center: CLLocationCoordinate2D(latitude: 0, longitude: 0),
+        span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+    )
+    
     var body: some View {
         ZStack {
             // Background color for the entire view
@@ -19,10 +25,7 @@ struct FindMyCatView: View {
                 let identifiableLocation = IdentifiableLocation(coordinate: location)
                 
                 // Map view showing user's location with a custom annotation
-                Map(coordinateRegion: .constant(MKCoordinateRegion(
-                    center: location,
-                    span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
-                )), annotationItems: [identifiableLocation]) { location in
+                Map(coordinateRegion: $region, annotationItems: [identifiableLocation]) { location in
                     MapAnnotation(coordinate: location.coordinate) {
                         GeometryReader { geometry in
                             ZStack {
@@ -48,6 +51,13 @@ struct FindMyCatView: View {
                     }
                 }
                 .edgesIgnoringSafeArea(.top) // Ensure the map fills the entire screen
+                .onAppear {
+                    // Update the region when the view appears
+                    region = MKCoordinateRegion(
+                        center: location,
+                        span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+                    )
+                }
             } else {
                 // Placeholder text while location is being fetched
                 Text("Getting your location...")

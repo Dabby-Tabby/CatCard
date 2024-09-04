@@ -2,9 +2,11 @@ import SwiftUI
 
 // CatCareTipsView displays various categories of cat care tips, such as first cat basics, potty training, diet & nutrition, grooming, and senior cat care.
 // Each section contains navigation links to detailed views on specific topics within that category.
+
 struct CatCareTipsView: View {
     var body: some View {
         ZStack {
+            
             VStack {
                 // Header text for the view with custom font and slight opacity.
                 HStack {
@@ -23,11 +25,11 @@ struct CatCareTipsView: View {
                                 .foregroundColor(.red)
                                 .opacity(0.85)
                         }) {
-                            NavigationLink(destination: FirstCatBasicsView()) {
+                            NavigationLink(destination: LitterboxPreparing()) {
                                 Text("Preparing Your Home for a Cat")
                             }
                             
-                            NavigationLink(destination: FirstCatBasicsView()) {
+                            NavigationLink(destination: PrimarySupplies()) {
                                 Text("Primary Cat Supplies")
                             }
                         }
@@ -39,15 +41,15 @@ struct CatCareTipsView: View {
                                 .foregroundColor(.blue)
                                 .opacity(0.85)
                         }) {
-                            NavigationLink(destination: PottyTrainingView()) {
+                            NavigationLink(destination: LitterboxSelection()) {
                                 Text("Selecting a Litter Box")
                             }
                             
-                            NavigationLink(destination: PottyTrainingView()) {
+                            NavigationLink(destination: TrainingKitAdu()) {
                                 Text("Training Kittens vs Adults")
                             }
                             
-                            NavigationLink(destination: PottyTrainingView()) {
+                            NavigationLink(destination: HandlingPottyAccidents()) {
                                 Text("Handling Potty Accidents")
                             }
                         }
@@ -58,15 +60,15 @@ struct CatCareTipsView: View {
                             Image(systemName: "fork.knife")
                                 .foregroundColor(.green)
                         }) {
-                            NavigationLink(destination: DietNutritionView()) {
+                            NavigationLink(destination: ChoosingCatFood()) {
                                 Text("Choosing a Cat Food")
                             }
                             
-                            NavigationLink(destination: DietNutritionView()) {
+                            NavigationLink(destination: DietaryNeedsByAge()) {
                                 Text("Dietary Needs by Age")
                             }
                             
-                            NavigationLink(destination: DietNutritionView()) {
+                            NavigationLink(destination: ManagingOverweightCats()) {
                                 Text("Managing Overweight Cats")
                             }
                         }
@@ -77,11 +79,11 @@ struct CatCareTipsView: View {
                             Image(systemName: "comb.fill")
                                 .foregroundColor(.brown)
                         }) {
-                            NavigationLink(destination: FirstCatBasicsView()) {
+                            NavigationLink(destination: BrushingAndFurCare()) {
                                 Text("Brushing and Fur Care")
                             }
                             
-                            NavigationLink(destination: FirstCatBasicsView()) {
+                            NavigationLink(destination: NailTrimmingTips()) {
                                 Text("Nail Trimming Tips")
                             }
                         }
@@ -92,11 +94,11 @@ struct CatCareTipsView: View {
                             Image(systemName: "hand.raised.fill")
                                 .foregroundColor(.purple)
                         }) {
-                            NavigationLink(destination: FirstCatBasicsView()) {
+                            NavigationLink(destination: MobilityAndJointHealth()) {
                                 Text("Mobility and Joint Health")
                             }
                             
-                            NavigationLink(destination: FirstCatBasicsView()) {
+                            NavigationLink(destination: SpecialCare()) {
                                 Text("Special Care")
                             }
                         }
