@@ -1,7 +1,7 @@
 # Cat Card
 
 <p align="center">
-  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo1.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo1.1.gif" width="200"/>
   <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo2.gif" width="200"/>
   <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo3.gif" width="200"/>
   <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo4.gif" width="200"/>
