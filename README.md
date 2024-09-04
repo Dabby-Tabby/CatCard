@@ -1,10 +1,10 @@
 # Cat Card
 
 <p align="center">
-  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo1.3.gif" width="200"/>
-  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo2.1.gif" width="200"/>
-  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo3.gif" width="200"/>
-  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/CatCardDemo4.1.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/Demo1.4.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/Demo2.1.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/Demo3.gif" width="200"/>
+  <img src="https://github.com/Dabby-Tabby/CatCard/blob/main/Demo4.1.gif" width="200"/>
 </p>
 
 
